@@ -1,7 +1,7 @@
 // Cloudflare R2 Configuration
 export const CLOUDFLARE_R2_CONFIG = {
   // Your R2 bucket public URL (replace with your actual bucket URL)
-  BUCKET_URL: 'https://4842142376ec4be9e187834dd7e0d2fa.r2.cloudflarestorage.com/quran',
+  BUCKET_URL: 'https://pub-2d62457c15f24c3cba63561b98fd1b94.r2.dev',
   
   // Alternative: If you have a custom domain for your R2 bucket
   // BUCKET_URL: 'https://music.yourdomain.com',
