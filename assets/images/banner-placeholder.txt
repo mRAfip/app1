@@ -1,0 +1,27 @@
+# Banner Image Placeholder
+
+## 📁 **To Add Your Banner Image:**
+
+1. **Replace this file** with your actual banner image
+2. **Rename it to**: `banner.png`
+3. **Recommended size**: 1080x600 pixels
+4. **Format**: PNG, JPG, or WebP
+
+## 🎨 **Current Setup:**
+
+- **Folder**: `assets/images/`
+- **Expected file**: `banner.png`
+- **Fallback**: Blue background color if image not found
+- **Display**: Full cover in header section
+
+## 📱 **How It Works:**
+
+- App looks for `assets/images/banner.png`
+- If found: Uses your image as header background
+- If not found: Shows blue fallback background
+- Image covers full header area (40% of screen height)
+
+## 🔄 **After Adding Your Image:**
+
+The app will automatically use your local banner image!
+

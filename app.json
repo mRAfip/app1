@@ -1,19 +1,31 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "Quran Malayalam MP3",
+    "slug": "quran-malayalam-mp3",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "quranmalayalam",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "description": "Beautiful Quran recitation player in Malayalam with offline playback and prayer times",
+    "keywords": ["quran", "malayalam", "islamic", "mp3", "recitation", "kerala"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.quranmalayalam.mp3"
     },
     "android": {
+      "package": "com.quranmalayalam.mp3",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "ACCESS_NETWORK_STATE",
+        "WAKE_LOCK"
+      ],
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#2E7D32",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
